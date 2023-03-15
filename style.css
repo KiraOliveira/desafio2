@@ -1,0 +1,59 @@
+/* Configuração inicial para remover margem*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: graysacle;
+}
+
+body {
+  background-image: url(https://i.ibb.co/vPKjF6r/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  text-align: center;
+  font-family: 'Spectral', serif;
+  padding-top: 20rem;
+  height: 100vh;
+}
+
+h1 {
+  color: #ebf1fb;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 120px;
+  font-family: 'Beth Ellen', cursive;
+}
+
+h1 span {
+  color: #5eead4;
+}
+
+p {
+  color: #ebf1fb;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 72px;
+}
+
+a {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #ebf1fb;
+  padding: 16px 32px;
+}
+
+a:hover,
+.btn-primary {
+  padding: 16px 32px;
+  background: #5eead4;
+  border-radius: 8px;
+
+  color: #0b0c0e;
+  text-decoration: none;
+}
